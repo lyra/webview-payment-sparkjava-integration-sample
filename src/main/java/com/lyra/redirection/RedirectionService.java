@@ -117,7 +117,6 @@ public class RedirectionService {
 
     /*
     * Create a list of all parameters that will be sent to payment platform.
-    * https://payzen.io/en-EN/form-payment/quick-start-guide/send-an-html-payment-form-via-post..html
     *
     * This fields need to be signed using the private key of the target shop
      */

@@ -24,7 +24,6 @@ import java.util.Map;
 public class RedirectionController {
 
     public static Route createPayment = (request, response) -> {
-        String jsonResponse = "";
         response.type("application/json; charset=utf-8"); //We return always a JSON response
 
         //Retrieve all parameters from request payload

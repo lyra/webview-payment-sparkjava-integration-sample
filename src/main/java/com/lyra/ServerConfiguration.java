@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * This class encapsulates all configuration data needed to perform payments calling Payzen payment platform.<p></p>
+ * This class encapsulates all configuration data needed to perform payments calling payment platform.<p></p>
  *
  * It reads the configuration from app-configuration.properties file. Please make sure that you have set all the configuration
  * parameters before running the server.
@@ -23,7 +23,7 @@ public class ServerConfiguration {
     }
 
     /**
-     * This method calculates the configuration data needed to connect to Payzen payment platform.<p></p>
+     * This method calculates the configuration data needed to connect to the payment platform.<p></p>
      * It sets also the mode of payment (TEST or PRODUCTION)
      *
      * @param mode             TEST or PRODUCTION

@@ -1,8 +1,7 @@
-This repository shows how to implement a merchant server in order to successfully perform a payment by WebView using [PayZen Payment Platform](https://www.payzen.eu). 
+The aim of this repository is to explain how to easily implement a merchant server in order that will be used from a webview mobile payment integration.
 
 * This example uses [Spark](http://sparkjava.com/) framework that allows to create a simple server easily
 * In order to perform a Post HTTP call easily, this example uses HttpClient (https://hc.apache.org/httpcomponents-client-ga/index.html)   
-* More information about implementation on our online documentation here -> https://payzen.io/fr-FR/form-payment/m-payment/sitemap.html
 
 ## Table of contents
 
@@ -61,12 +60,7 @@ merchantTestKey=#Your test certificate here
 merchantProdKey=#Your production certificate here
 
 #
-# URL of your payment platform. Some examples of possible values are:
-#
-# Payzen -> https://secure.payzen.eu
-# Payzen Germany -> https://de.payzen.eu
-# Payzen Brasil -> https://secure.payzen.com.br
-#
+# URL of your payment platform.
 #
 paymentPlatformUrl=#Your payment platform URL here
 ```
